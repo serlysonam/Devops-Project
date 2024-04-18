@@ -19,3 +19,6 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 amazon-linux-extras install epel
 amazon-linux-extras install java-openjdk11
 
+yum install jenkins
+service jenkins status
+service jenkins start
